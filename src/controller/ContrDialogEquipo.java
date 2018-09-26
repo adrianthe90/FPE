@@ -5,7 +5,7 @@ import java.sql.SQLException;
 import javax.sql.rowset.CachedRowSet;
 
 public class ContrDialogEquipo {
-//esto es el ejemplo del ejemplo
+//esto es el ejemplo del ejemplo  s gfasdasdfas
 	public static void iniciarDialog(int bottonSeleccionado, int filaSeleccionada) throws SQLException {
 
 		if (bottonSeleccionado == 1) {
