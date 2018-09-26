@@ -8,7 +8,7 @@ import javax.sql.rowset.CachedRowSet;
 import pojo.Proyecto;
 
 public class ContrDialogProyecto {
-
+//esto es otro ejemplo
 	public static void iniciarDialog(int bottonSeleccionado, int filaSeleccionada) throws SQLException {
 
 		if (bottonSeleccionado == 1) {
