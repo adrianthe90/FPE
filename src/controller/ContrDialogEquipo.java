@@ -6,6 +6,8 @@ import javax.sql.rowset.CachedRowSet;
 
 public class ContrDialogEquipo {
 
+	//esto es una prueba
+	
 	public static void iniciarDialog(int bottonSeleccionado, int filaSeleccionada) throws SQLException {
 
 		if (bottonSeleccionado == 1) {
