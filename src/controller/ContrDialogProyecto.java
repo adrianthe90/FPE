@@ -9,6 +9,7 @@ import pojo.Proyecto;
 
 public class ContrDialogProyecto {
 //esto es otro ejemplosgasdgasg
+	//gasdgasdga
 	public static void iniciarDialog(int bottonSeleccionado, int filaSeleccionada) throws SQLException {
 
 		if (bottonSeleccionado == 1) {
