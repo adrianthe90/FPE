@@ -22,7 +22,7 @@ public class ContrPrincipal {
 	public static void quieresSalir() {
 		//new view.DiaSalir();
 		int result = JOptionPane.showConfirmDialog(null, "QUIERES SALIR TOTALMENTE DEL PROGRAMA?", "SALIR", JOptionPane.YES_NO_OPTION);
-		System.out.println(result);
+		
 		if (result == 0) {
 			System.exit(0);
 		}
