@@ -14,8 +14,9 @@ import javax.swing.JOptionPane;
 public class Start {
 
 	public static void main(String[] args) {
-		Start app = new Start();
-		app.inicio();
+		System.out.println("hola");
+	//	Start app = new Start();
+	//	app.inicio();
 	}
 
 	private void inicio() {
@@ -36,6 +37,7 @@ public class Start {
 		List<String> cfg = null;
 		try {
 			cfg = util.Ficheros.cargarFicheroCFG();
+			
 		} catch (Exception e) {
 		}
 		dbm.DBSqlServer.crearCadenaConexion(cfg.get(0), cfg.get(1), cfg.get(2), cfg.get(3), cfg.get(4));
@@ -44,6 +46,7 @@ public class Start {
 		} else {
 			JOptionPane.showMessageDialog(null, "No se puede establecer la conexión con el servidor.",
 					"ERROR DE CONEXION", JOptionPane.ERROR_MESSAGE);
+			
 		}
 
 	}
