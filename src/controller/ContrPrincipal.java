@@ -1,5 +1,7 @@
 package controller;
 
+import javax.swing.JOptionPane;
+
 public class ContrPrincipal {
 
 	/**
@@ -13,11 +15,17 @@ public class ContrPrincipal {
 	}
 
 	/**
-	 * CONTROLADOR ABRIR DIALOG PARA SALIR DEFINITIVAMENTE DEL PROGRAMA.
+	 * CONTROLADOR PARA SHOW DIALOG PARA SALIR DEL PGRAMA.
 	 * @author AROMERO
+	 * @since 2.0
 	 */
 	public static void quieresSalir() {
-		new view.DiaSalir();
+		//new view.DiaSalir();
+		int result = JOptionPane.showConfirmDialog(null, "QUIERES SALIR TOTALMENTE DEL PROGRAMA?", "SALIR", JOptionPane.YES_NO_OPTION);
+		System.out.println(result);
+		if (result == 0) {
+			System.exit(0);
+		}
 	}
 
 	/**
